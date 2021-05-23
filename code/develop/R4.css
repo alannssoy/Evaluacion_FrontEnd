@@ -1,0 +1,19 @@
+.tablaR4{
+    background-color:white;
+    font-family: Arial;
+    text-align: left;
+    width:100%;
+    
+}
+td{
+    padding: 5px;   
+}
+tr:nth-child(even){
+    background-color: #ddd;     /* gris intercalado marcando los hijos pares*/
+}
+
+#contenedorTablaR4{
+    margin: 10px;
+    width: 600px;
+
+}

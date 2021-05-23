@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+        
+    <link type="image/x-icon" href="fotito.ico" rel="shortcut icon">                                        <!-- favicon-->
+    <link rel="stylesheet" href="R3.css" type="text/css">                                                   <!-- CSS-->
+    <!-- <script src="R3.js"></script> -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">    <!-- bootstrap CSS-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>                                    <!-- Jquery-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>             <!-- bootstrap JS-->
+</head>    
+<body>
+
+    <!-- modal con el video-->
+    <div class="modal fade" id="ModalVideo" tabindex="-1" role="dialog"  aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">                                                                  <!-- encabezado, titulo y boton cerrar-->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">            
+                        Cerrar
+                    </button>
+                    <h2 class="modal-title" > Jhin </h2>
+                </div>
+                <div class="modal-body">                                                                    <!-- cuerpo y video embebido-->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="jhin.mp4"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+                <!-- boton imagen que abre el modal-->
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ModalVideo">     <!-- imagen/boton que acciona el video-->
+                    <img src="botonimagen-350.jpg" >
+                </button>
+            </div>
+
+            <div class="col-md-4">
+                <p class="subtitulovideo">Lorem ipsum dolor sit amet consectetur, adipiscing elit morbi vivamus, magna neque eget sem. </p>
+                <p class="articulo">Rutrum pellentesque eget litora nec mollis torquent mi habitant suscipit, ornare praesent curabitur vehicula vivamus natoque 
+                inceptos cursus egestas, tempor semper primis faucibus leo mauris auctor porttitor. Eros placerat aliquam natoque pharetra sociis interdum 
+                gravida sagittis, nam senectus velit ullamcorper fringilla magnis parturient viverra, 
+                quam aliquet hac arcu varius fermentum ac, netus tortor tempus non magna lobortis nascetur. Nam viverra arcu ullamcorper sapien risus 
+                volutpat, vitae consequat et cursus fames aliquam diam, suspendisse habitant proin libero donec</p>
+            </div>
+         
+            <div class="col-md-4">
+            
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+</body>
+
+<footer>
+</footer>
+
+</html>

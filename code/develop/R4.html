@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="R4.css" type="text/css">                                                   <!-- CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">    <!-- bootstrap CSS-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>                                    <!-- Jquery-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>             <!-- bootstrap JS-->
+    <link href="R4.css" rel="stylesheet" type="text/css">
+</head>    
+<body>
+
+    <div class="container my-5 text-center">
+        <button class="btn btn-danger w-100" onclick="traer()">Obtener</button>
+        <div>
+            <table class="table">       <!-- tabla para el listado de la informacion obtenida con sus respectivos cabezales-->
+                <thead>
+                  <tr>
+                    <th scope="col">País</th>
+                    <th scope="col">Ciudad</th>
+                    <th scope="col">Fecha y hora</th>
+                    <th scope="col">Temperatura</th>
+                  </tr>
+                </thead>
+                <tbody id="contenido">
+                  
+                
+                </tbody>
+              </table>
+        </div>
+    </div>
+
+<script src="R4.js"></script>
+</body>
+
+<footer>
+
+</footer>
+
+</html>
